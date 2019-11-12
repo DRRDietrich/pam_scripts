@@ -29,5 +29,7 @@ vim scripts/NAME.sh
 chmod 500 pam.sh scripts/*
 # Add pam_scripts to pam.d as the first command
 auth optional pam_exec.so expose_authtok /etc/pam_scripts/pam.sh
+# SELinux
+restorecon -v pam.sh scripts/*
 # Test your passwords/scripts !!!
 ```
