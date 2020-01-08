@@ -33,5 +33,5 @@ auth optional pam_exec.so expose_authtok /etc/pam_scripts/pam.sh
 restorecon -v pam.sh scripts/*
 # Test your passwords/scripts !!!
 ```
-## Legacy Code
+## Legacy Geek Code
 O++S++ICE-MV+PS++D++
